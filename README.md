@@ -1,6 +1,6 @@
 # esp32-simple-react-server
 
-Hosting a web server with esp32 wrover module with SPIFFS, WiFi, ESPAsyncWebServer and ArduinoJson.
+Hosting a web server with react vite with esp32 wrover module with SPIFFS, WiFi, ESPAsyncWebServer and ArduinoJson.
 
 ## Hardware
 
