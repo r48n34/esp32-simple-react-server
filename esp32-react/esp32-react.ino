@@ -63,18 +63,17 @@ void loop(){
     delay(2000);
 }
 
+// Test code that you may fetch data from some API sources with GET
 String getServerData(){
 
     HTTPClient http;
     String serverPath = "https://api.adviceslip.com/advice";
-    
-    // Your Domain name with URL path or IP address with path
     http.begin(serverPath.c_str());
     
     // Send HTTP GET request
     int httpResponseCode = http.GET();
 
-    if (!(httpResponseCode > 0)) { // Falied
+    if (!(httpResponseCode > 0)) { // IF falied
         Serial.print("Error code: " + String(httpResponseCode));
         http.end();
         return "";
