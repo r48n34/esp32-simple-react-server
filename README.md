@@ -24,7 +24,9 @@ git clone https://github.com/r48n34/esp32-simple-react-server.git
 
 2. Open the `WiFiCredentials.h` and change the `WIFI_SSID` and `WIFI_PASSWORD` to your local wifi informations.  
 
-3. Verify the code from `esp32-react.ino` with adruino IDE and complie in the IDE.
+3. Install `SPIFFS.h` for the esp32 and upload the website to the SP32 Filesystem.  
+
+4. Verify the code from `esp32-react.ino` with adruino IDE and complie in the IDE.
 
 ## File structure
 ```
@@ -45,3 +47,7 @@ git clone https://github.com/r48n34/esp32-simple-react-server.git
     ├── esp32-react.ino   (Main program)
     └── WiFiCredentials.h (Input wifi ssid and password)
 ```
+
+## References
+1. ESP32 Filesystem Uploader  
+https://randomnerdtutorials.com/esp32-web-server-spiffs-spi-flash-file-system/  
