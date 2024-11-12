@@ -16,15 +16,24 @@ Can be obtain in amazon for around 5.6 USD each.
 git clone https://github.com/r48n34/esp32-simple-react-server.git
 ```
 
-1. Install the following stuff first:
-- `arduino-esp32fs-plugin` For SPIFFS
-- `ESPAsyncWebServer` For Hosting a simple web server
-- `ArduinoJson` For respond JSON
-- `HTTPClient` For Fetching
+1. Install the following stuff in your Arduino-IDE Library:    
+
+- `arduino-esp32fs-plugin` For SPIFFS  
+https://github.com/me-no-dev/arduino-esp32fs-plugin  
+
+- `ESPAsyncWebServer` For Hosting a simple web server  
+https://github.com/lacamera/ESPAsyncWebServer  
+
+- `ArduinoJson` For respond JSON  
+https://arduinojson.org/?utm_source=meta&utm_medium=library.properties  
+
+- `HTTPClient` For Fetching  
+https://github.com/amcewen/HttpClient  
 
 2. Open the `WiFiCredentials.h` and change the `WIFI_SSID` and `WIFI_PASSWORD` to your local wifi informations.  
 
-3. Install `SPIFFS.h` for the esp32 and upload the website to the SP32 Filesystem.  
+3. Install `SPIFFS.h` for the esp32 and upload the website to the SP32 Filesystem.    
+https://github.com/me-no-dev/arduino-esp32fs-plugin  
 
 4. Verify the code from `esp32-react.ino` with adruino IDE and complie in the IDE.
 
